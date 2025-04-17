@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio - Tata Group</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+      font-family: 'Montserrat', sans-serif;
+      color: #000;
+      scroll-behavior: smooth;
+      background: #121212;
+    }
+
+    nav {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 15px 30px;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 26px;
+      color: #fff;
+      font-weight: 700;
+    }
+
+    .menu a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 25px;
+      font-size: 18px;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+
+    .menu a:hover {
+      color: #ffd700;
+    }
+
+    section {
+      height: 100vh;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .section-content {
+      text-align: center;
+      background-color: rgba(255, 255, 255, 0.1);
+      padding: 40px;
+      border-radius: 15px;
+      width: 85%;
+      max-width: 1000px;
+      backdrop-filter: blur(6px);
+    }
+
+    h1, h2 {
+      font-size: 36px;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+
+    ul, p {
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 1.8;
+      text-align: left;
+    }
+
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+    #home {
+      background-color: #ffe0ef;
+    }
+
+    #vision {
+      background-color: #ffd6ec;
+    }
+
+    #departments {
+      background-color: #ffcce0;
+    }
+
+    #projects {
+      background-color: #ffb3d1;
+    }
+
+    #culture {
+      background-color: #ff99c2;
+    }
+
+    #contact {
+      background-color: #ff80b3;
+    }
+   footer {
+      background-color: #111;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      font-weight: 600;
+    }
+
+    @media (max-width: 768px) {
+      nav {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .menu a {
+        display: block;
+        margin: 10px 0;
+      }
+
+      .section-content {
+        width: 95%;
+        padding: 20px;
+      }
+    }
+    /* (CSS remains the same from your original) */
+    /* Paste your existing CSS styles here */
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="logo">Tata Group</div>
+    <div class="menu">
+      <a href="#home">Home</a>
+      <a href="#vision">Vision</a>
+      <a href="#departments">Businesses</a>
+      <a href="#projects">Projects</a>
+      <a href="#culture">Culture</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <section id="home">
+    <div class="section-content">
+      <h1>Welcome to Tata Group</h1>
+      <p>Leading with trust, innovation, and excellence across industries for over 150 years.</p>
+    </div>
+  </section>
+
+  <section id="vision">
+    <div class="section-content">
+      <h2>Our Vision</h2>
+      <p>Tata Group envisions building a better tomorrow through sustainable growth, community empowerment, and innovation. We are committed to excellence, ethical leadership, and nation-building through diverse ventures.</p>
+    </div>
+  </section>
+
+  <section id="departments">
+    <div class="section-content">
+      <h2>Our Businesses</h2>
+      <ul>
+        <li><strong>Automotive – Tata Motors:</strong> Driving innovation in electric and commercial vehicles.</li>
+        <li><strong>IT & Digital – TCS:</strong> Transforming global businesses through technology and consulting.</li>
+        <li><strong>Steel – Tata Steel:</strong> Engineering materials for the modern world.</li>
+        <li><strong>Consumer & Retail – Tata Consumer Products, Trent:</strong> Enhancing everyday life with trusted brands.</li>
+        <li><strong>Telecom – Tata Communications:</strong> Powering digital infrastructure globally.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="section-content">
+      <h2>Flagship Initiatives</h2>
+      <ul>
+        <li><strong>Tata EV Revolution:</strong> Expanding sustainable mobility solutions across India and beyond.</li>
+        <li><strong>Digital Nation with TCS:</strong> Supporting digital governance and enterprise transformation.</li>
+        <li><strong>Renewable Energy Drive:</strong> Investing in green energy through Tata Power and Tata Projects.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="culture">
+    <div class="section-content">
+      <h2>Our Work Culture</h2>
+      <p>Tata Group fosters a legacy of integrity, innovation, and inclusivity. Our people-first approach nurtures talent, empowers communities, and builds global leaders through purposeful and value-driven work.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="section-content">
+      <h2>Contact Us</h2>
+      <ul>
+        <li><strong>Address:</strong> Bombay House, Mumbai, India</li>
+        <li><strong>Phone:</strong> +91-22-6665 8282</li>
+        <li><strong>Email:</strong> info@tata.com</li>
+      </ul>
+      <p>Connect with us to learn more about the Tata Group’s legacy, vision, and impact.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Tata Sons Pvt. Ltd. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
